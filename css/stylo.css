@@ -102,9 +102,11 @@ img {
 }
 
 @media (max-width: 1024px) {
-    .bloque a  {
-        width: 45%; /* Reducir el ancho de las fotos para mostrar 2 fotos por fila */
-        margin: 10px; /* Ajustar los márgenes entre las fotos */
+    .bloque a {
+        width: 45%;
+        /* Reducir el ancho de las fotos para mostrar 2 fotos por fila */
+        margin: 10px;
+        /* Ajustar los márgenes entre las fotos */
     }
 }
 
@@ -136,7 +138,8 @@ hr {
 .foto img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ajusta la imagen manteniendo la relación de aspecto y cubriendo todo el contenedor */
+    object-fit: cover;
+    /* Ajusta la imagen manteniendo la relación de aspecto y cubriendo todo el contenedor */
     transition: transform 0.3s;
     border-radius: 5%;
 }
@@ -169,30 +172,35 @@ hr {
 /* Dispositivos pequeños, como teléfonos */
 @media (max-width: 480px) {
     .foto {
-        width: 100%; /* Asegura que las fotos ocupen el ancho completo del contenedor */
-        margin: 10px 0; /* Ajusta los márgenes para ocupar todo el ancho */
+        width: 100%;
+        /* Asegura que las fotos ocupen el ancho completo del contenedor */
+        margin: 10px 0;
+        /* Ajusta los márgenes para ocupar todo el ancho */
     }
 }
 
 /* Tabletas y dispositivos medianos */
 @media (min-width: 481px) and (max-width: 1024px) {
     .foto {
-        width: 45%; /* Muestra 2 fotos por fila */
-        margin: 10px; /* Ajusta los márgenes entre las fotos */
+        width: 45%;
+        /* Muestra 2 fotos por fila */
+        margin: 10px;
+        /* Ajusta los márgenes entre las fotos */
     }
 }
 
 /* Pantallas más grandes */
 @media (min-width: 1025px) {
     .foto {
-        width: 45%; /* Muestra 2 fotos por fila */
-        margin: 10px; /* Ajusta los márgenes entre las fotos */
+        width: 45%;
+        /* Muestra 2 fotos por fila */
+        margin: 10px;
+        /* Ajusta los márgenes entre las fotos */
     }
 }
 
 /* CONTACTO */
 
-/* Estilos adicionales si es necesario */
 .formulario {
     padding: 20px;
     border-radius: 10px;
@@ -203,32 +211,115 @@ hr {
 
 /* Media queries para adaptar el formulario a diferentes tamaños de pantalla */
 @media (max-width: 480px) {
-    .formulario{
-        width: 100%; /* Asegura que las fotos ocupen el ancho completo del contenedor */
-        margin: 10px 0; /* Ajusta los márgenes para ocupar todo el ancho */
+    .formulario {
+        width: 100%;
+        /* Asegura que las fotos ocupen el ancho completo del contenedor */
+        margin: 10px 0;
+        /* Ajusta los márgenes para ocupar todo el ancho */
     }
 }
 
 /* Tabletas y dispositivos medianos */
 @media (min-width: 481px) and (max-width: 1024px) {
     .formulario {
-        width: 45%; /* Muestra 2 fotos por fila */
-        margin: 10px; /* Ajusta los márgenes entre las fotos */
+        width: 45%;
+        /* Muestra 2 fotos por fila */
+        margin: 10px;
+        /* Ajusta los márgenes entre las fotos */
     }
 }
 
 /* Pantallas más grandes */
 @media (min-width: 1025px) {
-    .formulario{
-        width: 45%; /* Muestra 2 fotos por fila */
-        margin: 10px; /* Ajusta los márgenes entre las fotos */
+    .formulario {
+        width: 45%;
+        /* Muestra 2 fotos por fila */
+        margin: 10px;
+        /* Ajusta los márgenes entre las fotos */
     }
 }
 
-/* Agrega más media queries según sea necesario para adaptar a otros tamaños de pantalla */
+/* ACERCA_DE_MI */
+/* .mi_foto {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    border-radius: 500px;
+    height: 500px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cont_foto {
+    margin-top: 50px;
+}
+
+p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    color: grey;
+    padding: 100px;
+} */
+
+/* Estilos básicos para la imagen */
+.cont_foto {
+    text-align: center;
+    /* Centra la imagen */
+    margin-bottom: 100px;
+    /* Añade espacio debajo de la imagen */
+}
+
+.mi_foto {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    border-radius: 500px;
+    height: 500px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    /* Hace que la imagen sea circular (si es deseado) */
+    /* Agrega más estilos según sea necesario */
+}
+
+main {
+    text-align: center; /* Centra el texto */
+}
+
+main p {
+    text-align: justify; /* Justifica el texto */
+    padding: 0 20px; /* Añade relleno a los lados para mejorar la legibilidad */
+}
+
+/* Media queries para diferentes tamaños de pantalla */
+@media (max-width: 768px) {
+    .mi_foto {
+        height: 80px; /* Reducción del tamaño en pantallas más pequeñas */
+        width: 80px;
+    }
+
+    main p {
+        text-align: justify;
+        padding: 0 10px; /* Ajustes para pantallas más pequeñas */
+    }
+}
+
+/* Media query para pantallas aún más pequeñas si es necesario */
+@media (max-width: 480px) {
+    .mi_foto {
+        height: 60px; /* Ajustes para pantallas más pequeñas */
+        width: 60px;
+    }
+
+    main p {
+        text-align: justify;
+        padding: 0 5px; /* Ajustes para pantallas más pequeñas */
+    }
+}
 
 
-
-
-
-
+/* FIN ACERCA DE MÍ */
