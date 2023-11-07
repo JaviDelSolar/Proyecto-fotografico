@@ -291,7 +291,7 @@ main {
 }
 
 main p {
-    text-align: justify; /* Justifica el texto */
+    text-align: justify;
     padding: 0 20px; /* Añade relleno a los lados para mejorar la legibilidad */
 }
 
