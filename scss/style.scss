@@ -1,7 +1,22 @@
 //Acá se importa todas los archivos y primero son las variables
 
 // Variables, fuentes y mixins
-@import "./utilities/variables";
-@import "./base/tipografias.scss";
+
+@import './utilities/variables';
+@import './utilities/funciones';
+@import './utilities/mixins';
+
+@import './base/reset.scss';
+@import './base/tipografias.scss';
+
+@import './components/footer';
+@import './components/navegacion';
+
+@import './views/home';
+@import './views/portafolio';
+
+
+
+
 
 

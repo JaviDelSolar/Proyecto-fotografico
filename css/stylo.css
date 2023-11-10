@@ -1,0 +1,272 @@
+/*img {
+    width: 100%;
+}
+
+.logo {
+    border-radius: 200px;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
+
+/* Estilos Carousel 
+.carousel {
+    width: 100vw;
+    max-width: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Estilos footer 
+.footer {
+    display: flex;
+    flex-direction: column;
+    font-size: 4rem;
+}
+
+.footer .copy {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 50px;
+
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+/* Fin Estilos footer */
+
+/* INICIO INDEX 
+
+.titulo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+/* Estilos para las imágenes 
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bloque {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bloque a {
+    display: flex;
+    flex-wrap: wrap;
+    width: 33%;
+    box-sizing: border-box;
+    padding: 3px;
+    margin-bottom: 0%;
+}
+
+.bloque img {
+    border-radius: 5%;
+}
+
+/* Media queries para reorganizar las imágenes 
+@media (max-width: 768px) {
+    .bloque a {
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .bloque a {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .bloque a {
+        width: 45%;
+        margin: 10px;
+    }
+}
+
+/*FIN INDEX
+
+hr {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+/*PORTAFOLIO*/
+
+/* Estilos para la galería de fotos 
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.foto {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+    padding: 3px;
+    margin-bottom: 0%;
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+    border-radius: 5%;
+}
+
+.foto .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.foto:hover img {
+    transform: scale(1.1);
+    border-radius: 5%;
+}
+
+.foto:hover .overlay {
+    opacity: 1;
+}
+
+/* Dispositivos pequeños, como teléfonos 
+@media (max-width: 480px) {
+    .foto {
+        width: 100%;
+        margin: 10px 0;
+
+    }
+}
+
+/* Tabletas y dispositivos medianos 
+@media (min-width: 481px) and (max-width: 1024px) {
+    .foto {
+        width: 45%;
+        margin: 10px;
+    }
+}
+
+/* Pantallas más grandes 
+@media (min-width: 1025px) {
+    .foto {
+        width: 45%;
+        margin: 10px;
+    }
+}
+
+/* CONTACTO 
+
+.formulario {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f7f7f7;
+}
+
+
+@media (max-width: 480px) {
+    .formulario {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+/* Tabletas y dispositivos medianos 
+@media (min-width: 481px) and (max-width: 1024px) {
+    .formulario {
+        width: 45%;
+        margin: 10px;
+    }
+}
+
+/* Pantallas más grandes 
+@media (min-width: 1025px) {
+    .formulario {
+        width: 45%;
+        margin: 10px;
+    }
+}
+
+/* Estilos básicos para la imagen 
+.cont_foto {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.mi_foto {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    border-radius: 500px;
+    height: 500px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    text-align: center;
+
+}
+
+main p {
+    text-align: justify;
+    padding: 0 20px;
+}
+
+/* Media queries para diferentes tamaños de pantalla 
+@media (max-width: 768px) {
+    .mi_foto {
+        height: 80px;
+        width: 80px;
+    }
+
+    main p {
+        text-align: justify;
+        padding: 0 10px;
+    }
+}
+
+/* Media query para pantallas aún más pequeñas si es necesario 
+@media (max-width: 480px) {
+    .mi_foto {
+        height: 60px;
+        width: 60px;
+    }
+
+    main p {
+        text-align: justify;
+        padding: 0 5px;
+    }
+}
+/* FIN ACERCA DE MÍ */
