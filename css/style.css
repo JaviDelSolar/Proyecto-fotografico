@@ -4,9 +4,25 @@ body {
   /* Otros estilos reset */
 }
 
-h1 {
-  font-size: 24px;
-  /* Otros estilos de encabezados */
+.titulo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.titulo h3 {
+  text-align: center;
+  font-size: xx-large;
+}
+.titulo small {
+  font-size: large;
+}
+.titulo small.text-body-secondary {
+  color: #888;
+}
+.titulo small.text-center {
+  text-align: center;
 }
 
 .footer {
@@ -27,6 +43,71 @@ h1 {
   gap: 2rem;
   margin-top: 2rem;
   flex-wrap: wrap;
+}
+
+.logo {
+  border-radius: 200px;
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+}
+
+.carousel {
+  width: 100vw;
+  max-width: 100%;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+img {
+  width: 100%;
+}
+
+.imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (max-width: 480px) {
+  .imagenes {
+    justify-content: center;
+  }
+}
+
+.bloque {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bloque a {
+  display: flex;
+  flex-wrap: wrap;
+  width: 33%;
+  box-sizing: border-box;
+  padding: 3px;
+  margin-bottom: 0%;
+}
+
+.bloque img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+@media (max-width: 768px) {
+  .bloque a {
+    width: 50%;
+  }
+}
+@media (max-width: 480px) {
+  .bloque a {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
