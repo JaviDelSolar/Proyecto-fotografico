@@ -1,3 +1,8 @@
+hr {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
 .titulo {
   display: flex;
   align-items: center;
@@ -7,16 +12,20 @@
 }
 .titulo h3 {
   text-align: center;
-  font-size: xx-large;
+  font-size: x-large;
 }
 .titulo small {
-  font-size: large;
+  font-size: medium;
 }
 .titulo small.text-body-secondary {
   color: #888;
 }
 .titulo small.text-center {
   text-align: center;
+}
+
+.foto .overlay {
+  color: white;
 }
 
 .footer {
@@ -101,6 +110,140 @@ img {
 @media (max-width: 480px) {
   .bloque a {
     width: 100%;
+  }
+}
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.foto {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  overflow: hidden;
+  padding: 3px;
+  margin-bottom: 0%;
+}
+
+.foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+  border-radius: 5%;
+}
+
+.foto .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.foto:hover img {
+  transform: scale(1.1);
+  border-radius: 5%;
+}
+
+.foto:hover .overlay {
+  opacity: 1;
+}
+
+@media (max-width: 480px) {
+  .foto {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  .foto {
+    width: 45%;
+    margin: 10px;
+  }
+}
+@media (min-width: 1025px) {
+  .foto {
+    width: 45%;
+    margin: 10px;
+  }
+}
+.cont_foto {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.mi_foto {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  border-radius: 500px;
+  height: 500px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  text-align: center;
+}
+
+main p {
+  text-align: justify;
+  padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .mi_foto {
+    height: 80px;
+    width: 80px;
+  }
+  main p {
+    text-align: justify;
+    padding: 0 10px;
+  }
+}
+@media (max-width: 480px) {
+  .mi_foto {
+    height: 60px;
+    width: 60px;
+  }
+  main p {
+    text-align: justify;
+    padding: 0 5px;
+  }
+}
+.formulario {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f7f7f7;
+}
+
+@media (max-width: 480px) {
+  .formulario {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  .formulario {
+    width: 45%;
+    margin: 10px;
+  }
+}
+@media (min-width: 1025px) {
+  .formulario {
+    width: 45%;
+    margin: 10px;
   }
 }
 

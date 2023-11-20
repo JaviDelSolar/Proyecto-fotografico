@@ -1,0 +1,27 @@
+.formulario {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f7f7f7;
+}
+
+@media (max-width: 480px) {
+    .formulario {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .formulario {
+        width: 45%;
+        margin: 10px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .formulario {
+        width: 45%;
+        margin: 10px;
+    }
+}
