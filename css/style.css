@@ -48,13 +48,6 @@ hr {
   flex-wrap: wrap;
 }
 
-.logo {
-  border-radius: 200px;
-  height: 200px;
-  width: 200px;
-  padding: 20px;
-}
-
 .carousel {
   width: 100vw;
   max-width: 100%;
@@ -63,6 +56,13 @@ hr {
 .carousel-item img {
   width: 100%;
   height: auto;
+}
+
+.logo {
+  border-radius: 200px;
+  height: 200px;
+  width: 200px;
+  padding: 20px;
 }
 
 img {
