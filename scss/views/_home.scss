@@ -1,15 +1,7 @@
-// Estilos para las imágenes 
-img {
-    width: 100%;
-}
-
+/* Estilos generales para las imágenes */
 .imagenes {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center; 
-    @media (max-width: 480px) {
-        justify-content: center;
-    }
+    justify-content: center;
 }
 
 .bloque {
@@ -21,27 +13,36 @@ img {
 }
 
 .bloque a {
-    display: flex;
-    flex-wrap: wrap;
-    width: 33%;
+    flex: 0 0 calc(33.33% - 10px); 
     box-sizing: border-box;
-    padding: 3px;
-    margin-bottom: 0%;
+    margin: 5px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .bloque img {
     width: 100%;
-    border-radius: 5%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
 }
+
+.bloque a:hover img {
+    transform: scale(1.1);
+}
+
 
 @media (max-width: 768px) {
     .bloque a {
-        width: 50%;
+        flex: 0 0 calc(50% - 10px); 
     }
 }
 
 @media (max-width: 480px) {
     .bloque a {
-        width: 100%;
+        flex: 0 0 calc(100% - 10px); 
     }
 }
+

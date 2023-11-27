@@ -1,3 +1,4 @@
+@charset "UTF-8";
 hr {
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -69,19 +70,10 @@ a {
   padding: 20px;
 }
 
-img {
-  width: 100%;
-}
-
+/* Estilos generales para las imágenes */
 .imagenes {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-}
-@media (max-width: 480px) {
-  .imagenes {
-    justify-content: center;
-  }
 }
 
 .bloque {
@@ -93,27 +85,34 @@ img {
 }
 
 .bloque a {
-  display: flex;
-  flex-wrap: wrap;
-  width: 33%;
+  flex: 0 0 calc(33.33% - 10px);
   box-sizing: border-box;
-  padding: 3px;
-  margin-bottom: 0%;
+  margin: 5px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .bloque img {
   width: 100%;
-  border-radius: 5%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.bloque a:hover img {
+  transform: scale(1.1);
 }
 
 @media (max-width: 768px) {
   .bloque a {
-    width: 50%;
+    flex: 0 0 calc(50% - 10px);
   }
 }
 @media (max-width: 480px) {
   .bloque a {
-    width: 100%;
+    flex: 0 0 calc(100% - 10px);
   }
 }
 .galeria {
@@ -152,6 +151,7 @@ img {
   justify-content: center;
   opacity: 0;
   transition: opacity 0.3s;
+  text-align: center;
 }
 
 .foto:hover img {
@@ -172,14 +172,14 @@ img {
 }
 @media (min-width: 481px) and (max-width: 1024px) {
   .foto {
-    width: 45%;
+    width: 20%;
     margin: 10px;
     padding: 10px;
   }
 }
 @media (min-width: 1025px) {
   .foto {
-    width: 45%;
+    width: 20%;
     margin: 10px;
     padding: 10px;
   }
@@ -190,16 +190,10 @@ img {
 }
 
 .mi_foto {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 500px;
-  height: 500px;
-  width: 500px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin: 0 auto;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px; /* Ajusta el tamaño según tus necesidades */
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%; /* Hace que la imagen sea circular */
 }
 
 .mi_foto img {
@@ -217,7 +211,7 @@ main p {
   padding: 0 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) and (min-width: 767px) {
   .mi_foto {
     height: 100px;
     width: 100px;
@@ -225,20 +219,20 @@ main p {
   .mi_foto img {
     max-width: 100%;
     height: auto;
-  }
-  main p {
-    text-align: justify;
-    padding: 0 10px;
   }
 }
-@media (max-width: 480px) {
-  .mi_foto {
-    height: 100px;
-    width: 100px;
+@media (min-width: 481px) and (max-width: 1024px) {
+  .foto {
+    width: 20%;
+    margin: 10px;
+    padding: 10px;
   }
-  .mi_foto img {
-    max-width: 100%;
-    height: auto;
+}
+@media (min-width: 1025px) {
+  .foto {
+    width: 20%;
+    margin: 10px;
+    padding: 10px;
   }
 }
 .formulario {

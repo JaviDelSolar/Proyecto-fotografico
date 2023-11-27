@@ -4,16 +4,10 @@
 }
 
 .mi_foto {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    max-width: 500px; 
-    height: 500px;
-    width: 500px;
-    border-radius: 50%; 
-    overflow: hidden; 
-    margin: 0 auto; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    width: 400px; /* Ajusta el tamaño según tus necesidades */
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%; /* Hace que la imagen sea circular */
 }
 
 .mi_foto img {
@@ -31,7 +25,7 @@ main p {
     padding: 0 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) and (min-width: 767px){
     .mi_foto {
         height: 100px;
         width: 100px;
@@ -40,23 +34,22 @@ main p {
     .mi_foto img {
         max-width: 100%;
         height: auto;
-    }
-
-    main p {
-        text-align: justify;
-        padding: 0 10px;
     }
 }
 
-@media (max-width: 480px) {
-    .mi_foto {
-        height: 100px;
-        width: 100px;
+@media (min-width: 481px) and (max-width: 1024px) {
+    .foto {
+        width: 20%;
+        margin: 10px;
+        padding: 10px;
     }
+}
 
-    .mi_foto img {
-        max-width: 100%;
-        height: auto;
+@media (min-width: 1025px) {
+    .foto {
+        width: 20%;
+        margin: 10px;
+        padding: 10px;
     }
 }
 
