@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://javidelsolar.github.io/Proyecto-fotografico/</loc>
+  <lastmod>2023-11-27T02:03:46+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://javidelsolar.github.io/Proyecto-fotografico/index.html</loc>
+  <lastmod>2023-11-27T02:03:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://javidelsolar.github.io/Proyecto-fotografico/pages/portafolio.html</loc>
+  <lastmod>2023-11-27T02:03:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://javidelsolar.github.io/Proyecto-fotografico/pages/acerca_de_mi.html</loc>
+  <lastmod>2023-11-27T02:03:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://javidelsolar.github.io/Proyecto-fotografico/pages/contacto.html</loc>
+  <lastmod>2023-11-27T02:03:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://javidelsolar.github.io/Proyecto-fotografico/pages_portafolio/atardeceres_magicos.html</loc>
+  <lastmod>2023-11-27T02:03:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://javidelsolar.github.io/Proyecto-fotografico/pages_portafolio/viaje_a_lo_desconocido.html</loc>
+  <lastmod>2023-11-27T02:03:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://javidelsolar.github.io/Proyecto-fotografico/pages_portafolio/colores_naturaleza.html</loc>
+  <lastmod>2023-11-27T02:03:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://javidelsolar.github.io/Proyecto-fotografico/pages_portafolio/retratos.html</loc>
+  <lastmod>2023-11-27T02:03:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
