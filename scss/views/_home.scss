@@ -13,13 +13,13 @@
 }
 
 .bloque a {
-    flex: 0 0 calc(33.33% - 10px); 
+    flex: 0 0 calc(33.33% - 10px);
     box-sizing: border-box;
     margin: 5px;
     position: relative;
     overflow: hidden;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .bloque img {
@@ -36,13 +36,15 @@
 
 @media (max-width: 768px) {
     .bloque a {
-        flex: 0 0 calc(50% - 10px); 
+        flex: 0 0 calc(50% - 10px);
     }
 }
 
 @media (max-width: 480px) {
     .bloque a {
-        flex: 0 0 calc(100% - 10px); 
+        flex: 0 0 calc(100% - 10px);
     }
 }
+
+
 
