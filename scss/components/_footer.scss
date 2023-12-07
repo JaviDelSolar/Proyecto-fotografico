@@ -6,7 +6,7 @@
     .copy {
         display: flex;
         justify-content: center;
-        font-size: 1rem;
+        font-size: 15px;
         padding: 50px;
     }
 
@@ -18,8 +18,14 @@
         margin-top: 2rem;
         flex-wrap: wrap;
     }
-
 }
-a{
-    color: grey;
+
+.redes a i {
+    font-size: 40px;
+    color: #00a873;
+}
+
+.color {
+    background-color: #00a873;
+    border: #00a873;
 }
