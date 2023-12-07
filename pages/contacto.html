@@ -47,28 +47,28 @@
 
     <!--Contacto-->
     <div class="container d-flex justify-content-center align-items-center vh-100">
-        <form class="formulario">
+        <form class="formulario" action="procesar_formulario.php" method="post">
             <h2 class="text-center">Formulario de Contacto</h2>
             <div class="mb-3">
                 <label for="nombre" class="form-label">Nombre: <em>*</em></label>
-                <input type="text" class="form-control" id="nombre" required>
+                <input type="text" class="form-control" id="nombre" name="nombre" required>
             </div>
             <div class="mb-3">
                 <label for="email" class="form-label">Email: <em>*</em></label>
-                <input type="email" class="form-control" id="email" required>
+                <input type="email" class="form-control" id="email" name="email" required>
             </div>
             <div class="mb-3">
                 <label for="telefono" class="form-label">Teléfono:</label>
-                <input type="tel" class="form-control" id="telefono">
+                <input type="tel" class="form-control" id="telefono" name="telefono">
             </div>
             <div class="mb-3">
                 <label for="mensaje" class="form-label">Mensaje: <em>*</em></label>
-                <textarea class="form-control" id="mensaje" rows="5" required></textarea>
+                <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
             </div>
             <button type="submit" class="btn btn-primary color">Enviar</button>
-
         </form>
     </div>
+    
 
     <hr>
 

@@ -6,8 +6,12 @@
     .copy {
         display: flex;
         justify-content: center;
-        font-size: 15px;
+        font-size: 10px;
         padding: 50px;
+    }
+
+    .copy p{
+        align-items: center;
     }
 
     .redes {
